@@ -1,0 +1,17 @@
+@import './base.css';
+
+body {
+  background: black;
+}
+svg:hover {
+  cursor: pointer;
+  color: white;
+}
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
